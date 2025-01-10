@@ -13,6 +13,6 @@ public class AddProductHandler : IRequestHandler<AddProductCommand, Product>
     {
         await _fakeDataStore.AddProduct(request.Product);
             
-        return request.Product;
+        return request.Product; 
     }
 }
