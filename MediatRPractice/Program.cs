@@ -13,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddSingleton<PracticeDataStore>();
+builder.Services.AddTransient<IRequestHandler<GetBaseEntitiesQuery<Case>, IEnumerable<Case>>, GetBaseEntitiesHandler<Case>>();
+
 builder.Services.AddSingleton(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
 
 
