@@ -41,11 +41,3 @@ public class ProductsController : Controller
     }
 
 }
-
-
-    //[HttpPost]
-    //public async Task<ActionResult> AddProduct([FromBody] Product product)
-    //{
-    //    await _mediator.Send(new AddProductCommand(product));
-    //    return StatusCode(201);
-    //}

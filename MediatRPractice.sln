@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatRPractice", "MediatRP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AC488692-B22A-4B7C-BB1C-7A8DCE72B6BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseFinancesService", "CaseFinancesService\CaseFinancesService.csproj", "{C3195B3A-D23F-47DA-BD80-0087BB60E100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostManagement", "CostManagement\CostManagement.csproj", "{C0A4DDA1-9F77-454E-9BA2-84D902E3670B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AC488692-B22A-4B7C-BB1C-7A8DCE72B6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC488692-B22A-4B7C-BB1C-7A8DCE72B6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC488692-B22A-4B7C-BB1C-7A8DCE72B6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3195B3A-D23F-47DA-BD80-0087BB60E100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3195B3A-D23F-47DA-BD80-0087BB60E100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3195B3A-D23F-47DA-BD80-0087BB60E100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3195B3A-D23F-47DA-BD80-0087BB60E100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0A4DDA1-9F77-454E-9BA2-84D902E3670B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0A4DDA1-9F77-454E-9BA2-84D902E3670B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0A4DDA1-9F77-454E-9BA2-84D902E3670B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0A4DDA1-9F77-454E-9BA2-84D902E3670B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
